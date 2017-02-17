@@ -23,7 +23,6 @@ import javax.swing.JTabbedPane;
 public class ERPFrame extends JFrame {
 
 	private JPanel contentPane;
-	private JTable table;
 	private final JTable table_1 = new JTable();
 	private JButton selectButton;
 	private JButton insertButton;
@@ -66,10 +65,6 @@ public class ERPFrame extends JFrame {
 		comboBox.setBackground(new Color(255, 255, 255));
 		comboBox.setBounds(397, 269, 416, 76);
 		contentPane.add(comboBox);
-		
-		table = new JTable();
-		table.setBounds(563, 643, -425, -108);
-		contentPane.add(table);
 		table_1.setBounds(224, 474, 1081, 370);
 		contentPane.add(table_1);
 		
