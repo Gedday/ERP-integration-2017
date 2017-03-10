@@ -54,7 +54,7 @@ public class ERPFrame extends JFrame {
 	public ERPFrame() {
 		setResizable(false);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(100, 100, 891, 551);
+		setBounds(100, 100, 842, 551);
 		contentPane = new JPanel();
 		contentPane.setBorder(null);
 		contentPane.setBackground(new Color(51, 51, 51));
@@ -151,7 +151,7 @@ public class ERPFrame extends JFrame {
 		contentPane.add(textPane_8);
 		
 		JPanel panel = new JPanel();
-		panel.setBounds(162, 205, 686, 269);
+		panel.setBounds(135, 194, 686, 269);
 		contentPane.add(panel);
 		
 		
