@@ -50,7 +50,7 @@ public class ERPFrame extends JFrame {
 
 	/**
 	 * Create the frame.
-	 */
+	 **/
 	public ERPFrame() {
 		setResizable(false);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
