@@ -65,58 +65,151 @@ public class ERPFrame extends JFrame {
 		JButton btnUppgift = new JButton("Uppgift 1");
 		btnUppgift.setBounds(12, 27, 97, 25);
 		contentPane.add(btnUppgift);
+		btnUppgift.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent arg0) {	
+				
+			} 
+			
+		});
+
 		
 		JButton btnUppgift_1 = new JButton("Uppgift 2");
 		btnUppgift_1.setBounds(12, 65, 97, 25);
 		contentPane.add(btnUppgift_1);
+		btnUppgift_1.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent arg0) {		
+			} 
+			
+		});
 		
 		JButton btnUppgift_2 = new JButton("Uppgift 3");
 		btnUppgift_2.setBounds(12, 103, 97, 25);
 		contentPane.add(btnUppgift_2);
+		btnUppgift_2.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent arg0) {		
+			} 
+			
+		});
 		
 		JButton btnUppgift_3 = new JButton("Uppgift 4");
 		btnUppgift_3.setBounds(12, 144, 97, 25);
 		contentPane.add(btnUppgift_3);
+		btnUppgift_3.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent arg0) {		
+			} 
+			
+		});
 		
 		JButton btnUppgift_4 = new JButton("Uppgift 5");
 		btnUppgift_4.setBounds(12, 182, 97, 25);
 		contentPane.add(btnUppgift_4);
+		btnUppgift_4.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent arg0) {		
+			} 
+			
+		});
 		
 		JButton btnUppgift_5 = new JButton("Uppgift 6");
 		btnUppgift_5.setBounds(12, 220, 97, 25);
 		contentPane.add(btnUppgift_5);
+		btnUppgift_5.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent arg0) {		
+			} 
+			
+		});
 		
 		JButton btnUppgift_6 = new JButton("Uppgift 7");
 		btnUppgift_6.setBounds(12, 258, 97, 25);
 		contentPane.add(btnUppgift_6);
+		btnUppgift_6.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent arg0) {		
+			} 
+			
+		});
 		
 		JButton btnUppgift_7 = new JButton("Uppgift 8");
 		btnUppgift_7.setBounds(12, 298, 97, 25);
 		contentPane.add(btnUppgift_7);
+		btnUppgift_7.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent arg0) {		
+			} 
+			
+		});
 		
 		JButton btnUppgift_8 = new JButton("Uppgift 9");
 		btnUppgift_8.setBounds(12, 336, 97, 25);
 		contentPane.add(btnUppgift_8);
+		btnUppgift_8.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent arg0) {		
+			} 
+			
+		});
 		
 		JButton btnDelete = new JButton("Delete");
 		btnDelete.setBounds(150, 27, 97, 25);
 		contentPane.add(btnDelete);
+		btnDelete.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent arg0) {		
+			} 
+			
+		});
 		
 		JButton btnUpdate = new JButton("Update");
 		btnUpdate.setBounds(150, 65, 97, 25);
 		contentPane.add(btnUpdate);
+		btnUpdate.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent arg0) {		
+			} 
+			
+		});
 		
 		JButton btnInsert = new JButton("Insert");
 		btnInsert.setBounds(150, 144, 97, 25);
 		contentPane.add(btnInsert);
+		btnInsert.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent arg0) {		
+			} 
+			
+		});
 		
 		JButton btnFindNo = new JButton("Find No_");
 		btnFindNo.setBounds(150, 103, 97, 25);
 		contentPane.add(btnFindNo);
+		btnFindNo.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent arg0) {		
+			} 
+			
+		});
 		
 		JTextPane textPane = new JTextPane();
 		textPane.setBounds(259, 103, 97, 22);
-		contentPane.add(textPane);
+		contentPane.add(textPane);		
 		
 		JTextPane textPane_1 = new JTextPane();
 		textPane_1.setBounds(259, 147, 97, 22);
